@@ -66,8 +66,8 @@ void PrintComWin(string PlayerChoice, string ComChoice, stResultsNum &ResultsNum
 {
     system("color 4F");
     cout << "\a\n________Round [" << Counter << "]________\n";
-    cout << "\nPlayer Choice: " << PlayerChoice;
-    cout << "\nComputer Choice: " << ComChoice;
+    cout << "\nPlayer Choice   :" << PlayerChoice;
+    cout << "\nComputer Choice :" << ComChoice;
     cout << "\nRound winner: [Computer]\n";
     cout << "\n_________________________________________\n";
     ResultsNum.ComWin++;
@@ -77,8 +77,8 @@ void PrintDual(string PlayerChoice, string ComChoice, stResultsNum &ResultsNum)
 {
     system("color 6F");
     cout << "\n________Round [" << Counter << "]________\n";
-    cout << "\nPlayer Choice: " << PlayerChoice;
-    cout << "\nComputer Choice: " << ComChoice;
+    cout << "\nPlayer Choice   :" << PlayerChoice;
+    cout << "\nComputer Choice :" << ComChoice;
     cout << "\nRound winner: [No Winner]\n";
     cout << "\n_________________________________________\n";
     ResultsNum.Dual++;
@@ -88,8 +88,8 @@ void PrintPlayerWin(string PlayerChoice, string ComChoice, stResultsNum &Results
 {
     system("color 2F");
     cout << "\n________Round [" << Counter << "]________\n";
-    cout << "\nPlayer Choice: " << PlayerChoice;
-    cout << "\nComputer Choice: " << ComChoice;
+    cout << "\nPlayer Choice   :" << PlayerChoice;
+    cout << "\nComputer Choice :" << ComChoice;
     cout << "\nRound winner: [Player]\n";
     cout << "\n_________________________________________\n";
     ResultsNum.PlayWin++;
@@ -179,7 +179,6 @@ void PrintFinalResults(stResultsNum ResultsNum)
 
 void PrintGameOver(stResultsNum ResultsNum)
 {
-    system("cls");
     cout << "\n\t\t\t____________________________________________________\n";
     cout << "\n\t\t\t\t\t*** G a m e Over ***\n";
     cout << "\n\t\t\t____________________________________________________\n";
